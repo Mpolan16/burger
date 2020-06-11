@@ -1,37 +1,46 @@
-<h1>Burgers!</h1>
+<h1 class="center">Burgers!</h1>
+<div class="center">
+  <img src="https://images.immediate.co.uk/production/volatile/sites/2/2015/08/12812.jpg?quality=90&resize=960%2C408" alt="picture of a burger">
+</div>
+<div class="container">
+  <div class="row center">
+    <div class="col-sm-6 center">
+  <h2>Ready to EAT</h2>
 
-<h2>Burgers not devoured!</h2>
+  <ul class="burgerList" >
+    {{#each burgers}}
+      {{#unless devoured}}
+        {{> burgers/burger-block eat=true}}
+      {{/unless}}
+    {{/each}}
+  </ulclass="burgerList">
+</div>
+<div class="col-sm-6 center">
+  <h2>Burger Devoured!</h2>
 
-<ul>
-  {{#each burgers}}
-    {{#unless devoured}}
-      {{> burgers/burger-block eat=true}}
-    {{/unless}}
-  {{/each}}
-</ul>
+  <ul class="burgerList">
+    {{#each burgers}}
+      {{#if devoured}}
+        {{> burgers/burger-block eat=false}}
+      {{/if}}
+    {{/each}}
+  </ul>
+  </div>
+  </div>
+</div>
 
-<h2>Burgers that are devoured!</h2>
-
-<ul>
-  {{#each burgers}}
-    {{#if devoured}}
-      {{> burgers/burger-block eat=false}}
-    {{/if}}
-  {{/each}}
-</ul>
-
-<h2>Add a Burger</h2>
-<form class="create-form">
+<h2 class="center">Add a Burger</h2>
+<form class="create-form center">
 
   <div class="form-group">
-    <label for="bu">Burger:</label>
+    <label for="bu">What kind of burger would you like?</label>
     <input type="text" id="bu" name="name">
   </div>
 
   <div class="form-group">
-    <label for="devoured">devoure?</label><br>
-    <input type="radio" name="devoured" value="1" checked> devoured!<br>
-    <input type="radio" name="devoured" value="0"> not yet devoured.
+    <label for="devoured">is the burger ready to eat or devoured?</label><br>
+    <input type="radio" name="devoured" value="1" checked> Devoured!<br>
+    <input type="radio" name="devoured" value="0"> Ready to EAT
   </div>
 
   <button type="submit">Add Burger</button>

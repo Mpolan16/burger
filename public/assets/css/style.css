@@ -1,7 +1,7 @@
 li {
     padding: 5px;
     margin: 5px;
-    background: #faebd7;
+    background:  rgb(196, 124, 196);
   }
   
   .label {
@@ -16,4 +16,14 @@ li {
   
   .form-group {
     margin-bottom: 5px;
+  }
+
+  .center {
+    text-align: center;
+  }
+  body {
+    background-color: rgb(218, 145, 37);
+  }
+  .burgerList {
+    background-color: rgb(196, 124, 196);
   }
