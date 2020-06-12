@@ -18,7 +18,7 @@ The Eat Da Burger web application allows you to easily build your own burger and
 
 ## Usage
 
-Deployed webpage here:
+https://ancient-temple-88703.herokuapp.com/
 
 ## License
  This project is licensed under ![badge](https://img.shields.io/badge/License-MIT-blue).
