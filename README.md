@@ -30,4 +30,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ![picture of developer](https://avatars3.githubusercontent.com/u/60660512?v=4)
 
-Mónica Polanco Fabián | Email: mpolan16@g.holycross.edu
+Mónica Polanco Fabián | MonicaPolancoFabian15@gmail.com
