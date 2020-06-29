@@ -1,6 +1,5 @@
 # Eat Da Burger
 
-
 ## Description
 
 The Eat Da Burger web application allows you to easily build your own burger and show if you have either devoured it or have not yet eaten it.
