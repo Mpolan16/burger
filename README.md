@@ -10,10 +10,6 @@ The Eat Da Burger web application allows you to easily build your own burger and
 
 * [Technology](#Technology)
 
-* [License](#license)
-
-* [Contributing](#contributing)
-
 * [Questions](#questions)
 
 
@@ -24,12 +20,6 @@ https://ancient-temple-88703.herokuapp.com/
 ## Technology
 
 JavaScript, Express-Handlebars, MySQL, Node.js, CSS
-
-## License
- This project is licensed under ![badge](https://img.shields.io/badge/License-MIT-blue).
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## Questions
 
