@@ -14,7 +14,7 @@ The Eat Da Burger web application allows you to easily build your own burger and
 
 
 ## Usage
-
+![Thumbnail of app](public/assets/EatDaBurger.png)
 https://ancient-temple-88703.herokuapp.com/
 
 ## Technology
